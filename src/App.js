@@ -21,13 +21,13 @@ class App extends Component {
     }
   }
 
-  componentDidMount(){
-    let catArr = this.state.products.products.map(item => item.category);
-      let filtterCat = new Set(catArr);
-      catArr = [...filtterCat]
-//console.log(catArr);
-      this.setState({proCat:catArr})
-  }
+//   componentDidMount(){
+//     let catArr = this.state.products.products.map(item => item.category);
+//       let filtterCat = new Set(catArr);
+//       catArr = [...filtterCat]
+// //console.log(catArr);
+//       this.setState({proCat:catArr})
+//   }
 
   // componentDidUpdate(prevProps, prevState, snapshot){
   //   if (prevProps.specificProperty !== this.props.specificProperty) {
