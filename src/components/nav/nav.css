@@ -1,0 +1,36 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent !important;
+    z-index: 999;
+    transition: all 0.3s;
+}
+
+.sticky-nav{
+    background-color: #7cfc00 !important ;
+}
+
+.navbar-brand img{
+    max-width: 120px;
+    height: auto;
+}
+
+.navbar .nav-link{
+    color: #fff !important;
+    padding: 10px 25px !important;
+    border-radius: 24px;
+}
+
+.navbar .nav-link.active{
+    background-color: #0dcaf0;
+}
+
+.dash-nav{
+    background-color: #0dcaf0 !important;
+}
+
+.dash-nav.navbar .nav-link.active{
+    background-color: #FFF;
+    color: #0dcaf0 !important;
+}

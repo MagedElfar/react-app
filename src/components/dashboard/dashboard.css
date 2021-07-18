@@ -1,0 +1,80 @@
+.dashboard-Container{
+    margin-top: 122px;
+    height: calc(100vh - 122px);
+}
+
+.dashboard-Container .tab-content{
+    padding-top: 25px;
+}
+
+.dashboard-Container > .row{
+    height: 100%;
+}
+
+.dashboard-Container aside{
+    background:#3D474D;
+    padding: 50px 30px;
+}
+
+.dashboard-Container aside button,
+.dashboard-Container aside button:hover{
+    color: white;
+}
+
+.dashboard-Container .pro-control{
+    display: flex;
+    width: 500px;
+    border-top: 1px solid #000;
+    margin-left: 30px;
+}
+
+.dashboard-Container .pro-control{
+    display: flex;
+    width: 800px;
+    border-top: 1px solid #000;
+}
+
+.dashboard-Container .pro-control:last-of-type{
+    border-bottom: 1px solid #000;
+}
+
+.dashboard-Container .pro-control .pro-name,
+.dashboard-Container .pro-control .pro-edit,
+.dashboard-Container .pro-control .pro-delte,
+.dashboard-Container .pro-control .pro-view{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.dashboard-Container .pro-control > div{
+    border-left: 1px solid #000;
+}
+
+.dashboard-Container .pro-control > div:last-of-type{
+    border-right: 1px solid #000;
+}
+
+.dashboard-Container .pro-control .pro-name:h5{
+    margin-bottom: 0;
+}
+
+.dashboard-Container .pro-control .pro-name{
+    width: 55%;
+}
+
+.dashboard-Container .pro-control .pro-edit,
+.dashboard-Container .pro-control .pro-delte,
+.dashboard-Container .pro-control .pro-view{
+    width: 15%;
+    justify-content: center;
+}
+
+.dashboard-Container .pro-control .btn{
+    width: 68px;
+    text-transform: capitalize;
+}
+
+.form-title{
+    padding: 0 25px;
+}

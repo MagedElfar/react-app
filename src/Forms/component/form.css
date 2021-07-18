@@ -1,0 +1,18 @@
+form{
+    width: 700px;
+    max-height: 450px;
+    padding: 25px;
+    overflow: auto;
+}
+
+textarea{
+    height: 200px;
+}
+
+form button{
+    width: 80px !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

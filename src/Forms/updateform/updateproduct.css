@@ -1,0 +1,27 @@
+.updtat-form{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/src/Assets/istockphoto-504922554-170667a.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.updtat-form label{
+    color: #FFF;
+    font-weight: bold;
+}
+
+.updtat-form .close-btn{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}

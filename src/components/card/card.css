@@ -1,0 +1,51 @@
+.carts{
+    margin-top: 150px;
+}
+
+.carts .car-info > div,
+.carts .cart-list > div,
+.carts .cat-all-total > div,
+.empty-array {
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+
+
+.carts .cart-list > div,
+.carts .cat-all-total > div,
+.empty-array{
+    border-top-width: 0;
+}
+
+.carts .car-info > div:not(.carts .car-info > div:first-child),
+.carts .cart-list > div:not(.cart-list > div:first-child),
+.carts .cat-all-total > div:not(.carts .cat-all-total > div:first-child){
+    border-left-width: 0 ;
+}
+
+.carts .car-info > div,
+.carts .cat-all-total > div{
+    background-color: #0dcaf0;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.carts .cart-list > div:nth-child(2){
+    cursor: pointer;
+}
+
+.carts .cart-list > div:nth-child(2) > div{
+    width: 100%;
+    text-align: center;
+}
+
+.carts form{
+    display: flex;
+    width: auto;
+    padding: 0;
+}
+
+.carts form .mb-3{
+    margin-bottom: 0 !important;
+}
