@@ -5,7 +5,8 @@ import { bake_cookie, read_cookie} from 'sfcookies';
 const initState ={
     products: [
         new productInfo(Math.random() * 100 , "CHAMPIONS LEAGUE BALL" , "Adidas uefa champions league finale istanbul league ball" , "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum..." , " " , "fh7340-f-1000-01.4700.jpg" , "200 " , )
-    ]
+    ],
+    cart: []
 }
 
 const reducer = (state = read_cookie("show") || initState  , action) => {
