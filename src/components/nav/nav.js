@@ -43,7 +43,7 @@ class Nav extends Component{
               <NavLink to="/dashboard" className="fw-bold nav-link" aria-current="page" >Dashboard</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/cart" className="fw-bold nav-link" aria-current="page" >Cart {this.props.products.cart.length}</NavLink>
+              <NavLink to="/cart" className="fw-bold nav-link" aria-current="page" >Cart </NavLink>
             </li>
           </ul>
         </div>
